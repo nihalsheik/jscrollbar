@@ -142,7 +142,4 @@ JScrollBar.init = function(ele, conf) {
 }
 
 JScrollBar.initAll = function(conf) {
-    $j('.js-container').each( e=> {
-      //  new JScrollBar(e, conf)
-    });
 }
