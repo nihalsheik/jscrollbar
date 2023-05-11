@@ -1,0 +1,83 @@
+
+<fn name="demo"></fn>
+
+<div class="js-example">
+    <table border="0" width="80%" style="text-align:center;margin:0 auto;">
+        <tr>
+            <td style="vertical-align: top; text-align: left;">
+                <table class="input-table">
+                    <tr>
+                        <td>showScrolltrack</td>
+                        <td>
+                            <select id="showScrolltrack">
+                                <option value="true">True</option>
+                                <option value="false">False</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrolltrackColor</td>
+                        <td>
+                            <input id="scrolltrackColor" type="color" value="#eaeaea" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarWidth</td>
+                        <td>
+                            <input id="scrollbarWidth" type="text" value="6" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarColor</td>
+                        <td>
+                            <input id="scrollbarColor" type="color" value="#78b6ff" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarBorderColor</td>
+                        <td>
+                            <input id="scrollbarBorderColor" type="color" value="#999999" />
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>scrollbarRadius</td>
+                        <td>
+                            <input id="scrollbarRadius" type="text" value="4" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarPosition</td>
+                        <td>
+                            <select id="scrollbarPosition">
+                                <option value="right">Right</option>
+                                <option value="left">Left</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarActiveOpacity</td>
+                        <td>
+                            <input id="scrollbarActiveOpacity" type="text" value="1.0" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollbarInactiveOpacity</td>
+                        <td>
+                            <input id="scrollbarInactiveOpacity" type="text" value="0.4" />
+                        </td>
+                    </tr>                                        
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button onclick="updateScrollbar()" style="width: 120px;">Apply</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="70%" valign="top" style="padding-left: 20px;">
+                <div style="width: 100%; height: 500px; position: relative; padding: 0 0 0 20px; text-align: left; border: 1px solid #aaaaaa;" id="demoContent">
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>

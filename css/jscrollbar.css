@@ -1,0 +1,43 @@
+.js-content {
+    height: 100%;
+    width: calc(100% + 17px);
+    padding: 20px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.js-scroll {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.js-container:hover .js-scroll,
+.js-container:active .js-scroll {
+    opacity: 1.0;
+}
+
+.js-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.js-grabbed {
+    -o-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.js-scroll-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
