@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (url == prevUrl) {
             return;
         }
-        
+        $j('#content').html('<div style="text-align:center;">Loading...</div>');
         $j('.menu li').removeClass('menu-selected');
         $j('.menu li[data-url="' + url + '"]').addClass('menu-selected');
 
